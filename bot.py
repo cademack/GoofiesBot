@@ -36,6 +36,12 @@ async def event_message(ctx):
     if ('scooter' in ctx.content.lower()) or ('scottie' in ctx.content.lower()):
         await ctx.channel.send(f"Scooter bad!!! AHAHAHAAH XD XD")
 
+    if ('kappa' in ctx.content.lower()):
+        await ctx.channel.send(f"Kappa")
+
+    if ('pog' in ctx.content.lower()):
+        await ctx.channel.send(f"PogChamp")
+
 
 @bot.command(name='test')
 async def test(ctx):
