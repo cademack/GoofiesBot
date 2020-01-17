@@ -42,6 +42,18 @@ async def event_message(ctx):
     if ('pog' in ctx.content.lower()):
         await ctx.channel.send(f"PogChamp")
 
+    if ('nick' in ctx.content.lower()):
+        await ctx.channel.send(f"Champion Ocean Best Player PogChamp OMG")
+
+    if ('cade' in ctx.content.lower()):
+        await ctx.channel.send(f"Wow coding genius and god on his quinary role wow BloodTrail Champion Ocean")
+
+    if ('anthony' in ctx.content.lower()):
+        await ctx.channel.send(f"10000 IQ Draven shitter BibleThump")
+
+    if ('marshall' in ctx.content.lower()):
+        await ctx.channel.send(f"Wow great streamer sexy beard man")
+
 
 @bot.command(name='test')
 async def test(ctx):
