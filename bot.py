@@ -49,7 +49,7 @@ async def event_message(ctx):
         await ctx.channel.send(f"Wow coding genius and god on his quinary role wow BloodTrail Champion Ocean")
 
     if ('anthony' in ctx.content.lower()):
-        await ctx.channel.send(f"10000 IQ Draven shitter BibleThump")
+        await ctx.channel.send(f"10000 IQ Draven trash BibleThump")
 
     if ('marshall' in ctx.content.lower()):
         await ctx.channel.send(f"Wow great streamer sexy beard man")
